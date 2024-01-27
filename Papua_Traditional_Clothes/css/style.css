@@ -1,0 +1,510 @@
+:root {
+    --pr-color : #1AA5C4;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3fff4;
+}
+
+/* Navbar Style */
+
+.navbar {
+    z-index: 3;
+}
+
+/* Navbar Color */
+
+.nav-color {
+    background-color: #1AA5C4;
+    transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+    transition: all ease-in 0.3s;
+}
+
+* {
+    z-index: 2;
+}
+
+.img-hero {
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+.button-secondary {
+    width: 133px;
+    height: 40px;
+    background-color: #fff;
+    color: var(--pr-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.button-primary {
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Hero Section */
+
+#hero {
+    background: var(--pr-color);
+    height: 100vh;
+    width: 100%;
+}
+
+.img-hero {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+}
+
+.hero-tagline h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 72px;
+}
+
+.hero-tagline p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    line-height: 30px;
+    width: 85%;
+}
+
+.button-lg-primary {
+    width: 237px;
+    height: 70px;
+    background-color: #fff;
+    color: var(--pr-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Layanan Section */
+
+#layanan {
+    padding: 100px 0;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--pr-color);
+}
+
+.sub-title {
+    font-size: 18px;
+    color: black;
+}
+
+.card-layanan {
+    width: 100%;
+    height: 313;
+    border-radius: 5px;
+    background-color: white;
+    padding: 40px;
+    box-shaadow: 0 0 7px 3px rgba(0, 0, 0, 0.05)
+
+    transition: all, .2s ease-in;
+}
+
+.circle-icon {
+    width: 70px;
+    height: 70px;
+    background-color: var(--pr-color);
+    border-radius: 50%;
+
+    transition: all, .1s ease-in;
+}
+
+.card-layanan h3 {
+    color: var(--pr-color);
+    font-size: 20px;
+
+    transition: all, .2s ease-in;
+}
+
+.card-layanan p {
+    color: var(--pr-color);
+    font-size: 14px;
+
+    transition: all, .3s ease-in;
+}
+
+/* Hover */
+
+.card-layanan:hover {
+    width: 100%;
+    height: 313;
+    border-radius: 5px;
+    background-color: var(--pr-color);
+    padding: 40px;
+    box-shaadow: 0 0 7px 3px rgba(0, 0, 0, 0.05)
+    transition: all, .1s ease-in;
+}
+
+.card-layanan:hover .circle-icon {
+    background-color: white;
+    transition: all, .2s ease-in;;
+}
+
+.card-layanan:hover h3 {
+    color: white;
+    font-size: 20px;
+    transition: all, .1s ease-in;
+}
+
+.card-layanan:hover p {
+    color: white;
+    font-size: 14px;
+    transition: all, .1s ease-in;
+}  
+
+/* Search Section */
+
+#search {
+    background-image: url(../img/image/gambarsearch.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#search h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#search p {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input-cari {
+    height: 88px;
+}
+
+.input-cari:focus {
+    border: none;
+}
+
+.input-cari .button-secondary {
+    width: 200px;
+    height: 88px;
+    background: rgba(255, 255, 255, 0.8);
+    color: var(--pr-color);
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 0 0 0 10px;
+}
+
+.input-cari .button-primary {
+    height: 88px;
+    background-color: var(--pr-color);
+    color: #FFF;
+    border: none;
+    font-size: 36px;
+    font-weight: 500;
+    border-radius: 0 10px 0 10px;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs .nav-link {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0 0 0 0;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: rgba(255, 255, 255, 0,8);
+    color: var(--pr-color);
+    border-radius: 0 9px 0 0;
+    font-weight: 500;
+    border: 5px;
+    weight:363px;
+}
+
+.nav-tabs .nav-link {
+    color: black;
+    border: none;
+}
+
+/* Section Rekomendasi */
+
+#rekomendasi {
+    margin-top: 100px;
+}
+
+.card {
+    weight: 363px;
+    height: 400px;
+    border: none;
+    width: 95%;
+    padding: 5px;
+    
+}
+
+.card-body h4 {
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 0,8rem;
+}
+
+.card-body p {
+    color: #141414;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.card:hover {
+    background: linear-gradient(170deg, var(--pr-color), #07758e, #07758e, #000);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
+    transition: all ease-in-out .3s;
+}
+
+.card:hover .card-body h4 {
+    color: white;
+    transition: all ease-in-out 0.3s;
+}
+
+.card:hover .card-body p {
+    color: white;
+    transition: all ease-in-out 0.3s;
+}
+
+/* Fitur Section */ 
+
+.fitur {
+    color: #1AA5C4;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.button-fitur {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 238px;
+    height: 63px;
+    flex-shrink: 0;
+    background-color: var(--pr-color);
+    border: none;
+}
+
+.card-fitur h5 {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.card-fitur span {
+    color: #FFF;
+    font-size: 14px;
+}
+
+.card-fitur h6 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card-fitur button {
+    background-color: var(--pr-color);
+    color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-fitur .overlay {
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+
+.card-fitur .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
+
+.button-arrow-left {
+    background-color: transparent;
+    border: none;
+    width: 61px;
+    height: 61px;
+    padding: 0;
+}
+
+.button-arrow-right {
+    background-color: transparent;
+    border: none;
+    width: 61px;
+    height: 61px;
+    padding: 0;
+}
+
+#contact {
+    background-image: url(../img/image/bajuadat12.jpg);
+    margin-top: 158px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#contact .container {
+    padding: 148px 0 148px 0;
+}
+
+#contact h3 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.kontak h6 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 19px 0 14px 0;
+}
+
+.kontak a {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px; 
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+.linkptc {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.card-contact {
+    width: 100%;
+    height: 445px;
+    border-radius: 5px;
+    background: #FFF;
+    padding: 52px 48px;
+}
+
+.card-contact h2 {
+    color: #1AA5C4;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 485px;
+    height: 75px !important;
+    background: #C4C4C4;
+    border-radius: 0;
+}
+
+.form-floating label {
+    color: #717171;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.button-kontak {
+    width: 485px;
+    height: 75px;
+    background: #1AA5C4;
+    left: 740px;
+    top: 4826px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    border: none;
+}
+
+footer {
+    width: 100%;
+    height: 270px;
+    background: #1AA5C4;
+}
+
+.Copyright {
+    bottom: 1%;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer a {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    margin-left: 9px;
+}
+
+.form-group {
+    color: #1AA5C4;
+    width: 25px;
+}
